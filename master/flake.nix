@@ -11,6 +11,7 @@
   inputs.src-mpeg-master.ref   = "refs/heads/master";
   inputs.src-mpeg-master.owner = "treeform";
   inputs.src-mpeg-master.repo  = "mpeg";
+  inputs.src-mpeg-master.dir   = "";
   inputs.src-mpeg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
